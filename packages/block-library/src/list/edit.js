@@ -1,6 +1,8 @@
 /**
  * WordPress dependencies
  */
+
+import { classnames } from 'classnames';
 import { __, _x } from '@wordpress/i18n';
 import { createBlock } from '@wordpress/blocks';
 import {
@@ -144,6 +146,8 @@ export default function ListEdit( {
 				ordered={ ordered }
 				reversed={ reversed }
 				start={ start }
+				type={ type }
 			/> ) }
+
 	</>;
 }

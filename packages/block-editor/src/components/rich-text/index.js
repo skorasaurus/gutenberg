@@ -349,6 +349,7 @@ class RichTextWrapper extends Component {
 			start,
 			reversed,
 			style,
+			type,
 			preserveWhiteSpace,
 			disabled,
 			// From experimental filter. To do: pick props instead.
@@ -404,6 +405,7 @@ class RichTextWrapper extends Component {
 				disabled={ disabled }
 				start={ start }
 				reversed={ reversed }
+				type={ type }
 			>
 				{ ( { isSelected, value, onChange, Editable } ) =>
 					<>
