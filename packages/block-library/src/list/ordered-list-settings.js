@@ -9,6 +9,7 @@ import {
 	ToggleControl,
 	SelectControl,
 } from '@wordpress/components';
+import { withState } from '@wordpress/compose';
 
 const OrderedListSettings = ( { setAttributes, reversed, start } ) => (
 	<InspectorControls>

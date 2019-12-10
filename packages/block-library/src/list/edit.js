@@ -12,6 +12,7 @@ import {
 } from '@wordpress/block-editor';
 import {
 	ToolbarGroup,
+	SelectControl,
 } from '@wordpress/components';
 import {
 	__unstableCanIndentListItems as canIndentListItems,
@@ -22,6 +23,7 @@ import {
 	__unstableIsListRootSelected as isListRootSelected,
 	__unstableIsActiveListType as isActiveListType,
 } from '@wordpress/rich-text';
+import { Fragment } from '@wordpress/element';
 
 /**
  * Internal dependencies
