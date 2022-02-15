@@ -20,7 +20,8 @@ const load = () => {
 		// TODO: Need to include blocks' current attributes.
 		const attributes = { [ attribute ]: newValue };
 		// Fetch the HTML of the new block.
-		const html = await fetchRenderedBlock( blockName, attributes, nonce );
+		//const html = await fetchRenderedBlock( blockName, attributes, nonce ); // FIXME
+		const html = await fetchRenderedBlock( 'core/calendar', {}, nonce );
 
 		// Find the root of the real DOM.
 		const root = e.target.closest( blockSelector );
