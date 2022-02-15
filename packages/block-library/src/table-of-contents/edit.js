@@ -79,6 +79,18 @@ export default function TableOfContentsEdit( {
 			// eslint-disable-next-line @wordpress/data-no-store-string-literals
 			const { getPermalink } = select( 'core/editor' );
 
+			try {
+				// eslint-disable-next-line @wordpress/data-no-store-string-literals
+				const foo = select( 'testing-what-happens' );
+				// eslint-disable-next-line no-console
+				console.log( 'foo is: ' + typeof foo );
+				// eslint-disable-next-line no-console
+				console.log( JSON.stringify( foo ) );
+			} catch ( error ) {
+				// eslint-disable-next-line no-console
+				console.log( 'error ocurred of type ' + typeof error );
+			}
+
 			const isPaginated = getGlobalBlockCount( 'core/nextpage' ) !== 0;
 
 			const blockIndex = getBlockIndex( clientId );
