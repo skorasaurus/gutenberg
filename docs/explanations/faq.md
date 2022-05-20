@@ -215,6 +215,11 @@ This is the canonical list of keyboard shortcuts:
 			<td><kbd>⌘</kbd><kbd>A</kbd></td>
 		</tr>
 		<tr>
+			<td>Select line of text.</td>
+			<td><kbd>Shift</kbd>+<kbd>⇧</kbd></td>
+			<td><kbd>Shift</kbd>+<kbd>⇧</kbd></td>
+		</tr>
+		<tr>
 			<td>Clear selection.</td>
 			<td><kbd>Esc</kbd></td>
 			<td><kbd>Esc</kbd></td>
